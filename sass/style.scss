@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+
 @import "normalize";
 @import "layout";
 
@@ -7,7 +8,8 @@
 // import "components/form_field";
 
 /*Sections*/
-// import "section/registration_form";
+@import "sections/sidebar";
+// import "sections/registration_form";
 
 /*Pages/Views*/
 // import "pages/registration";
